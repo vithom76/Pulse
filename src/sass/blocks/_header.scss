@@ -1,0 +1,59 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	@media (max-width: 768px){
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	@media (max-width: 576px){
+		flex-direction: column;
+		
+		
+	}
+	&__logo {
+		width: 250px;
+		@media (max-width: 768px){
+			width: 200px;
+		}
+		img {
+			width: 100%;
+
+		}
+	}
+	&__official{
+		font-weight: 500;
+		font-size: 12px;
+		text-align: center;
+		color: #FFFFFF;
+		@media (max-width: 576px){
+			margin-top: 20px;
+		}
+		span{
+			display: block;
+			font-size: 18px;
+
+		}
+	}
+	&__phone{
+		display: block;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 18px;
+		text-align: right;
+		color: #FFFFFF;
+		&:hover{
+			color: #fff;
+			text-decoration: none;
+		}
+		@media (max-width: 576px){
+			margin-top: 20px;
+		}
+	}
+	&__contacts{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+}
