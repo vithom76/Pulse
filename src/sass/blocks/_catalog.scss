@@ -34,6 +34,7 @@
 			line-height: 35px;
 			font-size: 14px;
 		}
+
 		@media (max-width: 567px) {
 			margin-top: 15px;
 			width: 130px;
@@ -67,7 +68,7 @@
 
 		&_active {
 			display: flex;
-			
+
 		}
 	}
 
@@ -172,12 +173,15 @@
 			transform: translateX(0%);
 			transition: 0.5s all;
 			margin-bottom: 0;
-			padding-left: 19px;
 			list-style-type: none;
 
 			&_active {
 				transform: translateX(-100%);
 				margin-left: 0px;
+			}
+
+			ul {
+				padding-left: 19px;
 			}
 
 			li {
