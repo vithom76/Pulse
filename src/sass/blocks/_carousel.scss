@@ -14,8 +14,8 @@
 	}
 }
 
-	.prev,
-	.next {
+	.slick-prev,
+	.slick-next {
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
@@ -32,34 +32,9 @@
 		}
 	}
 
-	.next {
+	.slick-next {
 		right: -66px;
 		left: auto;
 	}
 
-	.tns-item {
-		img {
-			display: block;
-			margin: 0 auto;
-		}
-	}
-	.tns-nav {		
-		height: 20px;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 150px;		
-		margin: 0 auto;
-		margin-bottom: 20px;
-		.tns-nav-active{
-			background-color: red;
-		}
-		button {
-			background-color: black;
-			height: 15px;
-			width: 15px;
-			border-radius: 50%;
-						
-		}
-	}
-
+	
